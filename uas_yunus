@@ -1,0 +1,83 @@
+void setup(){
+  size(1000,1000);
+}
+
+void matahari(){
+  fill(#EBFC03);
+  ellipse(370, 70, 100, 100);
+}  
+
+void awan(){
+noStroke();
+fill(#FAFEFF);
+ellipse(100,100,70,45);
+ellipse(150,100,85,65);
+ellipse(200,100,70,45);
+
+fill(#FAFEFF);
+ellipse(600,100,70,45);
+ellipse(650,100,85,65);
+ellipse(700,100,70,45);
+}
+
+void tebing(){
+  fill(#6C2800);
+  rect(0,250,1000,700);
+}
+
+void airterjun(){
+  fill(#00E8FF);
+  rect(425, 250, 150,450);
+}
+
+void tanah(){
+  fill(#84FC63);
+  rect(0,600,1000,400);
+}
+
+void kolam(){
+  fill(#00E8FF);
+  ellipse(500,750,700,180);
+}
+
+void pinggirkolam(){
+  fill(#6C1F00);
+  ellipse(500,750,750,200);
+}
+
+void pohon(){
+fill(#369820);
+triangle(85,230,125,230,105,200);
+triangle(85,210,125,210,105,180);
+triangle(85,190,125,190,105,160);
+fill(#293E25);
+rect(100,230,10,20);
+
+fill(#369820);
+triangle(185,230,225,230,205,200);
+triangle(185,210,225,210,205,180);
+triangle(185,190,225,190,205,160);
+fill(#293E25);
+rect(200,230,10,20);
+
+fill(#369820);
+triangle(285,230,325,230,305,200);
+triangle(285,210,325,210,305,180);
+triangle(285,190,325,190,305,160);
+fill(#293E25);
+rect(300,230,10,20);
+}
+
+
+
+void draw(){
+  background(#00B7FC);
+  matahari();
+  awan();
+  tebing();
+  tanah();
+  pinggirkolam();
+  kolam();
+  airterjun();
+  pohon();
+}
