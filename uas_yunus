@@ -3,11 +3,17 @@ void setup(){
 }
 
 void matahari(){
+m1=m1+0.01;
+nonStroke();
   fill(#EBFC03);
   ellipse(370, 70, 100, 100);
 }  
 
-void awan(){
+void awan(float x, float y){
+a=a+1;
+  if (a>500){
+  a=-300;
+}
 noStroke();
 fill(#FAFEFF);
 ellipse(100,100,70,45);
